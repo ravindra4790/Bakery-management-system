@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="../images/logo1.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food website | Food Menu</title>
+</head>
+
+<body>
+    <!--Header for laptop (start)-->
+    <header>
+        <div class="header">
+
+            <!--Sign up/Sign in Form-->
+            <div class="sign">
+                <div class="sign-box">
+                    <div class="bar">
+                        <i class="fa-solid fa-xmark" id="x-sign-mb"></i>
+                    </div>
+                    <!-- sign up form  -->
+                    <div class="signup">
+                        <h3>Sign Up</h3>
+                        <form action="#">
+                            <label for="fullname">Enter Full Name</label></br>
+                            <input type="text" placeholder="Full Name" name="fullname" id=""></br>
+                            <label for="email">Enter E-mail</label></br>
+                            <input type="email" placeholder="E-mail" name="email" id=""></br>
+                            <label for="password">Create Password</label></br>
+                            <input type="password" placeholder="Password" name="password" id=""></br>
+                            <label for="copassword">Confirm Password</label></br>
+                            <input type="password" placeholder="Confirm Password" name="copassword" id=""></br>
+                            <input type="submit" value="Sign Up">
+                            <p id="to-signin">Already have an account? Sign In</p>
+                        </form>
+                    </div>
+                    <!-- sign in form  -->
+                    <div class="signin">
+                        <h3>Sign In</h3>
+                        <form action="#">
+                            <label for="email2">Enter Your E-mail:</label>
+                            <input type="email" placeholder="E-mail" name="email2" id="">
+                            <label for="password2">Enter Password: </label>
+                            <input type="password" placeholder="Password" name="password2" id="">
+                            <input type="submit" value="Sign In">
+                        </form>
+                        <p>Forgot Password?</p>
+                        <p id="to-signup">Don't have an account? Sign Up</p>
+                    </div>
+                </div>
+            </div>
+            <!--Hidden Header for Mobile/Tablet (start)-->
+            <div class="headerbar">
+                <div class="account">
+                    <ul>
+                        <a href="./index.html">
+                            <li><i class="fa-solid fa-house-chimney"></i></li>
+                        </a>
+                        <a href="#">
+                            <li><i class="fa-solid fa-magnifying-glass searchicon" id="searchicon1"></i></li>
+                        </a>
+                        <div class="search" id="searchinput1">
+                            <input type="search" name="" id="">
+                            <i class="fa-solid fa-magnifying-glass srchicon"></i>
+                        </div>
+                        <a href="#">
+                            <li><i class="fa-solid fa-user" id="user-mb"></i></li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <a href="./index.html">
+                            <li>Home</li>
+                        </a>
+                        <a href="./About.html">
+                            <li>About</li>
+                        </a>
+                        <a href="./menu.html">
+                            <li>Food Menu</li>
+                        </a>
+                        <a href="./book.html">
+                            <li>Book table</li>
+                        </a>
+                        <a href="./payment.html">
+                            <li>payment</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <!--Hidden Header for Mobile/Tablet (end)-->
+            <div class="logo">
+                <img src="../images/IMG_20240425_132102 (1).png" alt="logo">
+            </div>
+            <!--Bar/cross in header for mobile/tablet (start)-->
+            <div class="bar">
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-xmark" id="hdcross"></i>
+            </div>
+            <!--Bar/cross in header for mobile/tablet (end)-->
+            <div class="nav">
+                <ul>
+                    <a href="./index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="./About.html">
+                        <li>About</li>
+                    </a>
+                    <a href="./menu.html">
+                        <li>Food Menu</li>
+                    </a>
+                    <a href="./book.html">
+                        <li>Book table</li>
+                    </a>
+                    <a href="./payment.html">
+                        <li>payment</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="account">
+                <ul>
+                    <a href="./index.html">
+                        <li><i class="fa-solid fa-house-chimney"></i></li>
+                    </a>
+                    <a href="#">
+                        <li><i class="fa-solid fa-magnifying-glass searchicon" id="searchicon2"></i></li>
+                    </a>
+                    <div class="search" id="searchinput2">
+                        <input type="search" name="" id="">
+                        <i class="fa-solid fa-magnifying-glass srchicon"></i>
+                    </div>
+                    <a href="#">
+                        <li><i class="fa-solid fa-user" id="user-lap"></i></li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--Header for laptop (end)-->
+
+    <div class="menu">
+        <div class="menu1">
+            <div>
+                <h1>Food Menu</h1>
+            </div>
+            <div class="fav-head">
+                <!-- Add your all food items  -->
+                <div class="fav-food">
+                    <div class="item">
+                        <div>
+                            <img src="../images/food1.jpg" alt="Food item">
+                        </div>
+                        <h3>Food name</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur </p>
+                        <p class="fav-price">$2.00</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="../images/food2.jpg" alt="Food item">
+                        </div>
+                        <h3>Food name</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur </p>
+                        <p class="fav-price">$3.00</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="../images/food3.jpg" alt="Food item">
+                        </div>
+                        <h3>Food name</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur </p>
+                        <p class="fav-price">$3.00</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="../images/food4.jpg" alt="Food item">
+                        </div>
+                        <h3>Food name</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur </p>
+                        <p class="fav-price">$4.00</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="../images/food3.jpg" alt="Food item">
+                        </div>
+                        <h3>Food name</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur </p>
+                        <p class="fav-price">$3.00</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="../images/food4.jpg" alt="Food item">
+                        </div>
+                        <h3>Food name</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur </p>
+                        <p class="fav-price">$4.00</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="../images/food2.jpg" alt="Food item">
+                        </div>
+                        <h3>Food name</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur </p>
+                        <p class="fav-price">$3.00</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="../images/food1.jpg" alt="Food item">
+                        </div>
+                        <h3>Food name</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur </p>
+                        <p class="fav-price">$2.00</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="../images/food2.jpg" alt="Food item">
+                        </div>
+                        <h3>Food name</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur </p>
+                        <p class="fav-price">$3.00</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="../images/food4.jpg" alt="Food item">
+                        </div>
+                        <h3>Food name</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur </p>
+                        <p class="fav-price">$4.00</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="../images/food1.jpg" alt="Food item">
+                        </div>
+                        <h3>Food name</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur </p>
+                        <p class="fav-price">$11.00</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="../images/food3.jpg" alt="Food item">
+                        </div>
+                        <h3>Food name</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur </p>
+                        <p class="fav-price">$5.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="footer">
+        <div class="footer-1">
+            <div class="logo">
+                <img src="../images/IMG_20240425_132102 (1).png" alt="logo">
+            </div>
+            <div>
+                <address>
+                    <p>Email: Ravindrawebdev@gmail.com <br>usefullinfotech@gmail.com </p>
+                    <p>Instagram: ROYALRAVINDRA</p>
+                    <p>Mr RAVINDRA Patel,Sanchit Kumar</br>My Street, Prayagraj,</br>  U.P.</p>
+                    </address>
+            </div>
+        </div>
+        <div class="footer-2">
+            <img src="../images/RR.jpg" alt="">
+            <h2>Powered by <em>@ROYALRAVINDRA <br>Sanchit Kumar</em></h2>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
